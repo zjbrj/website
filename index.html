@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Meteor Client - Minecraft client downloads and community.">
+  <title>Meteor Client</title>
+  <link rel="icon" href="assets/logo.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="navbar">
+    <a class="brand" href="#home" aria-label="Meteor Client home">
+      <img src="assets/logo.svg" alt="">
+    </a>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#faq">FAQ</a>
+      <a href="https://github.com/" target="_blank" rel="noopener">GitHub</a>
+    </nav>
+    <a class="login" href="#login">Login</a>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="scene" aria-hidden="true">
+        <div class="bar bar-a"></div>
+        <div class="bar bar-b"></div>
+        <div class="bar bar-c"></div>
+        <div class="bar bar-d"></div>
+        <div class="bar bar-e"></div>
+        <div class="bar bar-f"></div>
+        <div class="bar bar-g"></div>
+        <div class="cube cube-back"></div>
+        <div class="cube cube-front"></div>
+      </div>
+      <div class="hero-word left">METE</div>
+      <div class="hero-word right">R</div>
+    </section>
+
+    <section class="community">
+      <a class="action discord" href="https://discord.com/" target="_blank" rel="noopener">
+        <span>◉</span> Discord
+      </a>
+      <a class="action donate" href="#donate">
+        <span>₱</span> Donate
+      </a>
+    </section>
+
+    <section id="downloads" class="downloads section">
+      <h1>Downloads</h1>
+      <div class="stats">
+        <div>Count: <span id="downloadCount">13 896 633</span></div>
+        <div>Online Players: <span id="onlinePlayers">9 289</span></div>
+      </div>
+
+      <div class="download-list">
+        <!-- Replace the href values below with your actual release URLs. -->
+        <a class="download-card" href="https://github.com/clixyfr-alt/download/releases/download/v1.0/meteor-client-26.2-32.jar" data-download>
+          <span class="download-icon">↓</span>
+          <strong>Meteor Client [26.2 - #32]</strong>
+        </a>
+        <p>This is the Meteor Client Download for 26.2</p>
+
+        <a class="download-card" href="https://github.com/clixyfr-alt/download/releases/download/v1.0/meteor-client-1.21.1-86.jar" data-download>
+          <span class="download-icon">↓</span>
+          <strong>Meteor Client [1.21.1 - #29]</strong>
+        </a>
+        <p>This is the Meteor Client Download for 1.21.1</p>
+      </div>
+    </section>
+
+    <section id="team" class="team section">
+      <h2>Dev Team</h2>
+      <div class="team-grid">
+        <article class="person">
+          <div class="avatar meteor-avatar">M</div>
+          <h3>MineGame159</h3>
+          <p>Owner / Head Developer</p>
+        </article>
+        <article class="person">
+          <div class="avatar snail-avatar">🐌</div>
+          <h3>seasnail</h3>
+          <p>Developer</p>
+        </article>
+      </div>
+
+      <div class="footer-actions">
+        <a class="action discord" href="https://discord.com/" target="_blank" rel="noopener">◉ &nbsp;Discord</a>
+        <a class="action github" href="https://github.com/" target="_blank" rel="noopener">● &nbsp;GitHub</a>
+        <a class="action youtube" href="https://youtube.com/" target="_blank" rel="noopener">▶ &nbsp;YouTube</a>
+        <a class="action donate" href="#donate">₱ &nbsp;Donate</a>
+      </div>
+    </section>
+
+    <section id="faq" class="faq section">
+      <h2>FAQ</h2>
+      <details>
+        <summary>How do I install Meteor Client?</summary>
+        <p>Download the version you need above and follow the installation instructions for your Minecraft version.</p>
+      </details>
+      <details>
+        <summary>Which Minecraft versions are supported?</summary>
+        <p>Use the download buttons above to publish the versions you want to offer. You can add more versions by copying a download card.</p>
+      </details>
+      <details>
+        <summary>Where can I get help?</summary>
+        <p>Join your Discord community and replace the Discord link in this site's HTML with your server invite.</p>
+      </details>
+    </section>
+  </main>
+
+  <footer id="donate">
+    <p>© 2026 Meteor Client. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
